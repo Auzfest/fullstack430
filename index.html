@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-gray-200 flex text-center justify-center items-center min-h-screen">
+    <div class="w-8/12 h-9/12 grid gap-4 grid-rows-[repeat(auto-fit,minmax(1rem,1fr))]">
+        <header class="text-3xl font-bold underline">
+            Tailwind and Typscript Test
+        </header>
+        <h1 class="text-xl font-bold">Welcome! Type your name below!</h1>
+        <h2>First Name</h2>
+        <textarea name="first_name" id="first_name" class="border border-black"></textarea>
+        <h2>Last Name</h2>
+        <textarea name="last_name" id="last_name" class="border border-black"></textarea>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="printText()">Click me for a greeting</button>
+        <p id="greeting" class=""></p>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
